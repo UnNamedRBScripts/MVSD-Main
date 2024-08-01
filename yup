@@ -27,6 +27,12 @@ local Window = Rayfield:CreateWindow({
  })
  local Tab = Window:CreateTab("Main", 13851095509) -- Title, Image
  local Button = Tab:CreateButton({
+    Name = "The Main Hub Isnt usable in this game",
+    Callback = function()
+        print('sorry!')
+    end,
+  })
+  local Button = Tab:CreateButton({
     Name = "Click Tp",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Click-Tp-Rerun/main/when%20die"))()
