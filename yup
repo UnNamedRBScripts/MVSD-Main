@@ -44,3 +44,9 @@ local Window = Rayfield:CreateWindow({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubMurdervssheriff"))()
     end,
   })
+  local Button = Tab:CreateButton({
+    Name = "Roll Animation (press X)",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/UnNamedRBScripts/Fe-Roll/main/Roll'))()
+    end,
+  })
